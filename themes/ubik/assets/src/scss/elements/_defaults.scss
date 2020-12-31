@@ -1,0 +1,31 @@
+////
+/// Default elements.
+////
+
+html {
+  overflow-x: hidden;
+}
+
+// article > *, pre, code, blockquote {
+//   clear: both;
+// }
+
+dl {
+	margin:  15px;
+}
+
+dd {
+	margin-bottom: 15px;
+}
+
+table {
+	border-color: inherit;
+}
+
+table th, table td {
+	text-align: left;
+}
+table th {
+  text-transform: uppercase;
+  font-weight: normal;
+}

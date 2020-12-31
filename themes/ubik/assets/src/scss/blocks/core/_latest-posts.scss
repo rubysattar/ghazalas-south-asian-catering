@@ -1,0 +1,49 @@
+////
+/// Latest posts block.
+////
+
+.wp-block-latest-posts {
+
+	padding: 0;
+	list-style: none;
+
+	li {
+		color: #bbb;
+		font-family: $header-font-family;
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 1.2;
+		padding-bottom: 0.75rem;
+
+		&.menu-item-has-children,
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+}
+
+.wp-block-latest-posts.is-grid {
+
+	li {
+		border-top: 2px solid #bbb;
+		padding-top: 1rem;
+		margin-bottom: 2rem;
+		a {
+			&:after {
+				content: '';
+			}
+		}
+		&:last-child {
+			margin-bottom: auto;
+			a:after {
+				content: '';
+			}
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+ .frontpage-sidebar-area {
+  font-size: 14px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: $global-border-color;
+}
+
+.left-sidebar {
+  .frontpage-sidebar-area {
+    border-left: none;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: $global-border-color;
+  }
+}

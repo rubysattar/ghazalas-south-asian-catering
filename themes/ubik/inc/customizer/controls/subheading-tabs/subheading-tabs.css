@@ -1,0 +1,24 @@
+
+.customize-control-ubik-subheading-tabs .subheading-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px 0 0 -12px;
+  width: calc(100% + 28px);
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.customize-control-ubik-subheading-tabs .subheading-tabs .switch-label {
+  background: #fff;
+  border-right: 1px solid #ddd;
+  margin: 0;
+  text-align: center;
+  padding: 0.5em 1em;
+  flex-grow: 1;
+  transition: all .3s ease;
+  font-weight: 600;
+}
+.customize-control-ubik-subheading-tabs .subheading-tabs .switch-input:checked + .switch-label {
+  background-color: #fff;
+  color: #0085ba;
+  box-shadow: inset 0 -1px 0 0 #0085ba;
+}

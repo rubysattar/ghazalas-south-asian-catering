@@ -1,0 +1,36 @@
+////
+/// Separator block.
+////
+
+.wp-block-separator,
+hr {
+	background-color: #bbb;
+	border: 0;
+	height: 2px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	max-width: 2.25em;
+	text-align: left;
+
+	&.is-style-wide {
+		max-width: 100%;
+	}
+
+	&.is-style-dots {
+		max-width: 100%;
+		background-color: inherit;
+		border: inherit;
+		height: inherit;
+		text-align: center;
+	}
+
+	/* Remove duplicate rule-line when a separator
+		* is followed by an H1, or H2 */
+	& + h1,
+	& + h2 {
+
+		&:before {
+			display: none;
+		}
+	}
+}

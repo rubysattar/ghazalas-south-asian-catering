@@ -1,0 +1,23 @@
+////
+/// Deal with flash of unstyle content (FOUC).
+////
+
+.no-js {
+
+  .nav {
+    .menu-item-has-children {
+      .menu {
+        display: none;
+      }
+    }
+  }
+
+  .accordion-menu {
+    display: none !important;
+  }
+
+  .drilldown {
+    display: none !important;
+  }
+
+}

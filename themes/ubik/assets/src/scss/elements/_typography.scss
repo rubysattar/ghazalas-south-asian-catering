@@ -1,0 +1,29 @@
+////
+/// typography.
+////
+
+dfn,
+cite,
+em {
+	font-style: italic;
+}
+
+blockquote {
+	font-style: italic;
+	line-height: 1.6;
+	margin: 20px;
+
+	p {
+		color: inherit;
+	}
+
+	&:before, &:after {
+		content: "";
+	}
+}
+
+pre {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #fafafa;
+}

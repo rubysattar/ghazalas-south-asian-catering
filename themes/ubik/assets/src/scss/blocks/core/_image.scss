@@ -1,0 +1,22 @@
+////
+/// Image block.
+////
+
+.wp-block-image {
+
+	max-width: 100%;
+
+	img {
+		display: block;
+	}
+
+	.alignleft,
+	.alignright {
+		width: 100%;
+
+		@media screen and (min-width: 600px) {
+			width: auto;
+		}
+	}
+
+}

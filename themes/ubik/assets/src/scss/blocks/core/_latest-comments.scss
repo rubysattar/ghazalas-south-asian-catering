@@ -1,0 +1,37 @@
+////
+/// Latest comments block.
+////
+
+.wp-block-latest-comments {
+
+	.wp-block-latest-comments__comment-meta {
+		font-family: $body-font-family;
+		font-weight: bold;
+
+		.wp-block-latest-comments__comment-date {
+			font-weight: normal;
+		}
+	}
+
+	.wp-block-latest-comments__comment,
+	.wp-block-latest-comments__comment-date,
+	.wp-block-latest-comments__comment-excerpt p {
+		font-size: inherit;
+	}
+
+	&.has-avatars {
+
+	}
+
+	&.has-dates {
+
+		.wp-block-latest-comments__comment-date {
+			font-size: 13px;
+		}
+	}
+
+	&.has-excerpts {
+
+	}
+
+}

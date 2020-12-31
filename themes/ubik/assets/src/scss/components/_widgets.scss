@@ -1,0 +1,83 @@
+.widget {
+  margin-bottom: 40px;
+  border-color: $global-border-color;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+	  display: table;
+    table-layout: fixed;
+    clear: both;
+  }
+  
+}
+
+.widget-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: $header-color;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+// List items borders
+.widget ul li {
+   padding: 5px 0;
+   border-bottom: 1px solid $global-border-color;
+ 
+   &:first-child {
+     border-top: 1px solid $global-border-color;
+   }
+ }
+
+// Tag cloud widget
+.widget .tagcloud ul li {
+	float: left;
+	border-top: 0;
+	border-bottom: 0;
+	padding: 0;
+	margin: 4px 4px 0 0;
+}
+
+.tagcloud,
+.widget_tag_cloud,
+.wp-tag-cloud {
+	line-height: 1.5;
+}
+
+.widget .tagcloud a,
+.widget.widget_tag_cloud a,
+.wp_widget_tag_cloud a {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	display: block;
+	padding: 4px 10px 5px;
+	position: relative;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	width: auto;
+	word-wrap: break-word;
+	z-index: 0;
+}
+
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget.widget_tag_cloud a:hover,
+.widget.widget_tag_cloud a:focus, {
+	border-color: #bbb;
+	box-shadow: none;
+	text-decoration: none;
+}
+
+// Calendar widget
+.widget_calendar th,
+.widget_calendar td {
+	text-align: center;
+}

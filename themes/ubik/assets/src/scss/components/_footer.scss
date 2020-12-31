@@ -1,0 +1,30 @@
+.site-footer {
+  height: 40px;
+  background-color: $black;
+}
+
+.site-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-logo .custom-logo {
+  max-height: 30px;
+}
+
+.footer-nav {
+  .menu-item-has-children li {
+    display: none;
+  }
+  .menu a {
+    color: $white;
+  }
+}
+
+.footer-text {
+  p {
+    margin: 0;
+  }
+}

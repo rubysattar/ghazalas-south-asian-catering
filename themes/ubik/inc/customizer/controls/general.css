@@ -1,0 +1,93 @@
+/*
+ * Customizer Tweaks
+ */
+
+/* Color picker alpha channel fix */
+.wp-picker-holder .iris-border .iris-picker-inner {
+	right: 0px;
+}
+
+/* Global */
+#sub-accordion-section-ubik_frontpage_image_header_general_options_section .customize-control-notifications-container {
+	display: none !important;
+}
+li.customize-control-ubik-toggle-control-heading + li {
+	margin-top: -12px;
+}
+#customize-control-ubik_header_content_text_font_size .customize-control-title,
+#customize-control-ubik_frontpage_header_content_text_font_size .customize-control-title,
+#customize-control-ubik_header_content_nav_font_size .customize-control-title,
+#customize-control-ubik_frontpage_header_content_nav_font_size .customize-control-title,
+#customize-control-ubik_header_content_breadcrumbs_font_size .customize-control-title,
+#customize-control-ubik_header_content_page_title_font_size .customize-control-title,
+#customize-control-ubik_frontpage_header_content_page_title_font_size .customize-control-title,
+#customize-control-ubik_header_content_site_tagline_font_size .customize-control-title,
+#customize-control-ubik_frontpage_header_content_site_tagline_font_size .customize-control-title,
+#customize-control-ubik_classic_entry_title_typography_font_size .customize-control-title,
+#customize-control-ubik_classic_entry_meta_typography_font_size .customize-control-title,
+#customize-control-ubik_card_entry_title_typography_font_size .customize-control-title,
+#customize-control-ubik_card_entry_meta_typography_font_size .customize-control-title,
+#customize-control-ubik_h_card_entry_title_typography_font_size .customize-control-title,
+#customize-control-ubik_h_card_entry_meta_typography_font_size .customize-control-title,
+#customize-control-ubik_h_card_entry_image_title_typography_font_size .customize-control-title,
+#customize-control-ubik_single_title_typography_font_size .customize-control-title,
+#customize-control-ubik_single_meta_typography_font_size .customize-control-title,
+#customize-control-ubik_top_bar_text_font_size .customize-control-title,
+#customize-control-ubik_frontpage_top_bar_text_font_size .customize-control-title,
+#customize-control-ubik_classic_vertical_bar_nav_typography_font_size .customize-control-title,
+#customize-control-ubik_frontpage_classic_vertical_bar_nav_typography_font_size .customize-control-title,
+#customize-control-ubik_classic_vertical_bar_text_font_size .customize-control-title,
+#customize-control-ubik_frontpage_classic_vertical_bar_text_font_size .customize-control-title,
+#customize-control-ubik_classic_vertical_bar_footer_text_font_size_desktop .customize-control-title,
+#customize-control-ubik_frontpage_classic_vertical_bar_footer_text_font_size_desktop .customize-control-title {
+	font-weight: normal;
+}
+
+/* Kirki switch */
+.customize-control-kirki-switch {
+	margin-top: 15px;
+}
+
+/* Kirki spacing, dimensions */
+.customize-control-kirki-dimensions .wrapper .control > div h5 {
+	margin-top: 3px !important;
+}
+
+/* Responsive buttons switchers */
+.customize-control.has-switchers .customize-control-title { display: -webkit-box; display: -ms-flexbox; display: flex; line-height: 1; margin-top: 20px; margin-bottom: 10px; }
+.customize-control.has-switchers .customize-control-title span { line-height: 20px; }
+
+.customize-control .responsive-switchers { margin-left: 5px; width: auto; }
+.customize-control .responsive-switchers li:not(.desktop) { display: none; }
+.customize-control.responsive-switchers-open .responsive-switchers li { display: block; }
+.customize-control .responsive-switchers li { float: left; margin: 0; }
+.customize-control .responsive-switchers li button { display: inline-block; height: 20px; width: 20px; background-color: #a4afb7; cursor: pointer; position: relative; margin-left: 5px; color: #fff; font-size: 10px; text-align: center; border-radius: 50%; padding: 0; border: 0; outline: none; -webkit-transition: background-color .5s; transition: background-color .5s; cursor: pointer; }
+.customize-control .responsive-switchers li button:hover { background-color: #c2cbd2; }
+.customize-control .responsive-switchers li:not(.desktop) button.active { background-color: #13aff0; }
+.customize-control .responsive-switchers li button i { width: auto; height: auto; font-size: inherit; line-height: 18px; }
+
+.customize-control.has-switchers > .control-wrap:not(.active) { display: none; width: 100%; }
+
+/* RTL */
+body.rtl .customize-control-checkbox input[type=checkbox] { margin: 0 0 0 6px; }
+body.rtl .customize-control-checkbox input[type="checkbox"]:checked:before,
+body.rtl .customize-control-start-multi-check input[type="checkbox"]:checked:before { right: 0; left: auto; }
+body.rtl .customize-control .responsive-switchers,
+body.rtl .customize-control .responsive-switchers li button { margin-right: 5px; margin-left: 0; }
+body.rtl .customize-control .responsive-switchers li { float: right; }
+
+/* Responsive */
+@media screen and ( max-width: 768px ) {
+	body .customize-control .responsive-switchers { display: none; }
+	body .customize-control.has-switchers > .control-wrap:not(.active) { display: inline-block; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+	body .customize-control.has-switchers > .control-wrap { display: inline-block; }
+	body .customize-control.has-switchers > .control-wrap:not(.tablet) { display: none; }
+}
+
+@media screen and ( max-width: 480px ) {
+	body .customize-control.has-switchers > .control-wrap { display: inline-block; }
+	body .customize-control.has-switchers > .control-wrap:not(.mobile) { display: none; }
+}

@@ -1,0 +1,22 @@
+////
+/// Table block.
+////
+
+.wp-block-table {
+
+	th,
+	td {
+		border-color: #bbb;
+	}
+
+	&.alignwide {
+		@media screen and (min-width: 860px) {
+			width: calc( 100% + 56px);
+		}
+	}
+
+	&.alignfull {
+		width: 100vw;
+	}
+
+}

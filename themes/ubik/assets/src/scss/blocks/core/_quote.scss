@@ -1,0 +1,55 @@
+////
+/// Quote block.
+////
+
+.wp-block-quote {
+
+	&:not(.is-large),
+	&:not(.is-style-large),
+	&:not(.is-large):not(.is-style-large) {
+		border-left: 2px solid #bbb;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	p {
+		font-size: 1em;
+		font-style: normal;
+		line-height: 1.8;
+	}
+
+	cite {
+		font-size: 1rem;
+	}
+
+	&.is-large,
+	&.is-style-large {
+
+		margin: 1rem 0;
+		padding: 0;
+		border-left: none;
+
+		p {
+			font-size: 22px;
+			line-height: 1.4;
+			font-style: italic;
+		}
+
+		cite,
+		footer {
+			font-size: 1rem;
+			text-align: left;
+		}
+
+		@media screen and (min-width: 768px) {
+			margin: 1rem 0;
+			padding: 1rem 0;
+
+			p {
+				font-size: 28px;
+			}
+		}
+
+	}
+
+}

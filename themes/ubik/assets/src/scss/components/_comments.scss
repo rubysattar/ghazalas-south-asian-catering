@@ -1,0 +1,90 @@
+// comments-title
+.comments-title {
+	margin-bottom: 1.5em;
+	font-size: 18px;
+}
+
+// comment-list
+.comment-list,
+.comment-list .children {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment-body {
+	margin-left: 65px;
+  margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.comment-meta {
+	margin-bottom: 15px;
+}
+
+.comment-author {
+  position: relative;
+  margin-bottom: 0.4em;
+	font-size: 16px;
+}
+
+.comment-author .avatar {
+  position: absolute;
+  left: -65px;
+	height: 50px;
+	width: 50px;
+}
+
+.children .comment-author .avatar {
+	position: absolute;
+	left: -45px;
+  height: 30px;
+	width: 30px;
+}
+
+.comment-author .says {
+	display: none;
+}
+
+.comment-metadata {
+	font-size: 10px;
+	font-size: 0.625rem;
+	font-weight: 800;
+	letter-spacing: 0.1818em;
+	text-transform: uppercase;
+}
+
+.comment-metadata a.comment-edit-link {
+	margin-left: 1em;
+}
+
+.comment-reply-link {
+	font-weight: 800;
+	position: relative;
+}
+
+.comment-reply-link .icon {
+  position: absolute;
+  top: 0;
+  left: -2em;
+	height: 1em;
+	width: 1em;
+}
+
+.no-comments,
+.comment-awaiting-moderation {
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-style: italic;
+}
+
+// comment-respond
+.comment-reply-title {
+  font-size: 18px;
+}
+
+.comment-form {
+  .form-submit {
+    text-align: right;
+  }
+}

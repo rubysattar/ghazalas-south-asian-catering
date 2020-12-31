@@ -1,0 +1,26 @@
+////
+/// Clearings
+////
+
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.single-content:before,
+.single-content:after,
+.page-content:before,
+.page-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.single-content:after,
+.page-content:after,
+.site-footer:after {
+	clear: both;
+}

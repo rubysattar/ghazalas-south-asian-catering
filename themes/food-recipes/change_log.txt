@@ -1,0 +1,102 @@
+Version 1.0
+    i) Intial Release
+
+Version: 1.0.1
+	i) Set condition in header.php
+	ii) changed footer copy right text
+	iii) set pagination in index page
+	iv) changed comment form 
+	v) used search form in 404 file
+	vi) changed favicon typo
+	
+Version: 1.0.2
+	i) set image margin on page loading
+	ii) set comment counter condition
+	iii) Set div structure 
+
+Version: 1.0.3
+	i) Fixed a pagination issue
+
+Version: 1.0.4
+	i) Optional custom pagination support added through plugin integration
+	
+Version: 1.0.5
+	i) set post thumbnail size.
+	ii) set languages file.
+	iii) Removed extra plugin code.
+	iv) Removed screen icon function.
+	v) Added images links in readme.txt file
+	vi) Deleted unused masory js file. 
+
+Version: 1.0.6
+	i) form field values set with escaped.
+	ii) change image and screenshot.
+
+Version: 1.0.7
+	i) Added license of images.
+	ii) Added home_url() in place of site_url() in header.php.
+	iii) Changed settings name to the unique name.
+
+Version: 1.0.8
+	i) Changed esc_url() tpo esc_attr() for copyright text option.
+
+Version: 1.0.9
+	i) Set responsive css.	
+	
+Version: 1.1
+	i) Set responsive css.
+	ii) Set links in adminbar.
+	iii) Change FasterThemes logo in FT Option. 
+	
+Version: 1.2
+	i)  Removed links in adminbar.
+	ii) Removed third-party site links.
+	
+Version 1.3
+	
+	i) Set TGM for pagination.
+	ii) Change copyright text condition.
+	iii) Change theme author uri in style.css.	
+	iv) Set css for pagination.	
+	
+Version 1.4
+
+	i) Define TGM license in readme.txt
+	ii) Replace esc_url_raw with esc_url.	
+	iii) Change Theme Options layout.
+	iv) Remove ABSPATH.
+	
+Version 1.4.1
+    i) Variable name changes in media-uploader.js
+
+Version 1.4.2 (17th Nov. 2014)
+   i) Fixed JS error which was appearing in admin panel.  
+   ii) Removed screen_icon() found in the file class-tgm-plugin-activation.php as it's deprecated.  
+   
+Version 1.4.3 (9th Dec 2014)
+    i) Made it translation ready.
+
+Version 1.4.4 (16th Dec 2014)
+    i) Fix CSS issue.
+    
+Version 1.4.5 (1th June 2015)
+    i) Fix CSS issue.
+	
+Version 1.4.6 (21st June 2015)
+    i) Removed Social Links of FasterThemes
+
+Version 1.4.7 (20th Aug 2015)
+    i) Fixed WP_Widget Constructor issue.
+
+Version 1.4.8 (02nd Jan 2017)
+    i) Minor fixes.
+
+Version 1.4.9 (24th April 2018)
+    i) Random post widget updated.
+    i) TGM removed and also remove faster pagination plugin function.
+
+Version 1.5.0 (2nd Nov 2018)
+    i) Misc Changes.
+
+Version 1.5.1 (16th May 2020)
+    i) Misc Changes.

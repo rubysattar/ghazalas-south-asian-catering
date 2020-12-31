@@ -1,0 +1,13 @@
+.has-sidebar {
+
+  .frontpage-sidebar-area {
+    padding-left: 30px;
+  }
+  &.left-sidebar {
+    .frontpage-sidebar-area {
+      padding-left: 0;
+      padding-right: 30px;
+    }
+  }
+  
+}

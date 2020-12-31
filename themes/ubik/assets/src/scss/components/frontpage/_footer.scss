@@ -1,0 +1,31 @@
+
+ .frontpage-footer {
+  height: 40px;
+  background-color: $black;
+}
+
+.frontpage-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.frontpage-footer-logo .custom-logo {
+  max-height: 30px;
+}
+
+.frontpage-footer-nav {
+  .menu-item-has-children li {
+    display: none;
+  }
+  .menu a {
+    color: $white;
+  }
+}
+
+.frontpage-footer-text {
+  p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,33 @@
+.mobile-menu {
+  z-index: 100;
+  overflow: hidden;
+  background-color: $white;
+  &.position-bottom {
+    height: calc(100vh - 40px);
+  }
+}
+
+.mobile-menu-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu-close {
+  flex: 0 0 auto;
+  background-color: $white;
+  color: $black;
+  padding: 10px;
+  text-align: center;
+  &:focus {
+    background-color: $white;
+  }
+}
+
+.mobile-menu-nav {
+  flex: 1 1 auto;
+}
+
+.mobile-menu-search {
+  flex: 0 0 auto;
+}

@@ -1,0 +1,81 @@
+////
+/// Shared styles
+////
+
+.search-overlay {
+  outline: 0;
+
+  .search-overlay-input, .search-overlay-input:focus {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #444444;
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0;
+    min-height: 50px;
+    color: $white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  
+    &:hover, &:focus {
+      border-color: $white;
+    }
+  }
+}
+
+// Custom logo
+.custom-logo {
+  width: auto;
+  transition: all 0.3s ease-in-out;
+  max-height: 50px;
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    max-height: 50px;
+  }
+  @media screen and (max-width: 39.9375em) {
+    max-height: 50px;
+  }
+}
+
+// Site title
+.site-title {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+// Site Tagline
+.site-tagline {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+// Site page title
+.site-page-title {
+  margin: 0;
+}
+
+// Containers
+.grid-container {
+  max-width: 1200px;
+}
+
+.transparent-container {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.is-dropdown-submenu {
+  z-index: 3;
+}
+
+.bypostauthor {
+	font-size: inherit;
+}

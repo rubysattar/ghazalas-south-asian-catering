@@ -1,0 +1,254 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Food Recipes V1.4.7\n"
+"POT-Creation-Date: 2018-11-02 15:42+0530\n"
+"PO-Revision-Date: 2014-12-09 18:52+0530\n"
+"Last-Translator: FasterThemes <support@fasterthemes.com>\n"
+"Language-Team: FasterThemes <support@fasterthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "404 Page"
+msgstr ""
+
+#: 404.php:26
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:27
+msgid "This is embarassing. We can't find what you were looking for."
+msgstr ""
+
+#: 404.php:29
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: archive.php:13
+msgid "Archives"
+msgstr ""
+
+#: author.php:12
+msgid "Author "
+msgstr ""
+
+#: comments.php:20
+#, php-format
+msgid "One thought on : %1$s"
+msgid_plural "%1$s thoughts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:12
+#, php-format
+msgid "Powered by %1$s"
+msgstr ""
+
+#: footer.php:12
+msgid "Food Recipes WordPress Theme"
+msgstr ""
+
+#: function/customizer.php:13
+msgid "General"
+msgstr ""
+
+#: function/customizer.php:14
+msgid "styling options"
+msgstr ""
+
+#: function/customizer.php:22
+msgid "Basic Settings"
+msgstr ""
+
+#: function/customizer.php:30
+msgid "Social Settings"
+msgstr ""
+
+#: function/customizer.php:32
+msgid ""
+"In first input box, you need to add FONT AWESOME shortcode which you can "
+"find "
+msgstr ""
+
+#: function/customizer.php:32
+msgid "here"
+msgstr ""
+
+#: function/customizer.php:32
+msgid ""
+" and in second input box, you need to add your social media profile URL."
+msgstr ""
+
+#: function/customizer.php:32
+msgid ""
+" Enter the URL of your social accounts. Leave it empty to hide the icon."
+msgstr ""
+
+#: function/customizer.php:49
+msgid "Social Account "
+msgstr ""
+
+#: function/customizer.php:67
+msgid "Enter Icon"
+msgstr ""
+
+#: function/customizer.php:77
+msgid "Social Link "
+msgstr ""
+
+#: function/customizer.php:96
+msgid "Enter URL"
+msgstr ""
+
+#: function/customizer.php:106
+msgid "Footer Settings"
+msgstr ""
+
+#: function/customizer.php:118
+msgid "Copyright Text"
+msgstr ""
+
+#: function/customizer.php:119
+msgid ""
+"Some text regarding copyright of your site, you would like to display in the "
+"footer."
+msgstr ""
+
+#: function/foodrecipes-post-widget.php:10
+msgid "Displays a random post with thumbnail"
+msgstr ""
+
+#: function/foodrecipes-post-widget.php:11
+msgid "Random Post and Thumbnail"
+msgstr ""
+
+#: functions.php:27
+msgid "Top primary menu"
+msgstr ""
+
+#: functions.php:112
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:136
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:145
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:147
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: functions.php:185 functions.php:187
+msgid "Home"
+msgstr ""
+
+#: functions.php:192
+msgid "Archive by category"
+msgstr ""
+
+#: functions.php:195
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:253
+msgid "Posts tagged"
+msgstr ""
+
+#: functions.php:258
+msgid "Articles posted by"
+msgstr ""
+
+#: functions.php:261
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:266
+msgid "Page"
+msgstr ""
+
+#: functions.php:308
+msgid "Comments"
+msgstr ""
+
+#: functions.php:353
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:355
+msgid "Edit"
+msgstr ""
+
+#: functions.php:373
+msgid "Post author "
+msgstr ""
+
+#: functions.php:383
+msgid "Reply"
+msgstr ""
+
+#: functions.php:403
+msgid "Read more "
+msgstr ""
+
+#: functions.php:409
+msgid "Pro Feature"
+msgstr ""
+
+#: functions.php:409
+msgid "Food Recipes Pro"
+msgstr ""
+
+#: index.php:48
+msgid "Post By:"
+msgstr ""
+
+#: index.php:48
+msgid "Comments:"
+msgstr ""
+
+#: page-templates/full-width.php:41 page-templates/left-sidebar.php:40
+#: page.php:33 single.php:47
+msgid "NO COMMENT"
+msgstr ""
+
+#: page-templates/full-width.php:41 page-templates/left-sidebar.php:40
+#: page.php:33 single.php:47
+msgid "1 COMMENT"
+msgstr ""
+
+#: page-templates/full-width.php:41 page-templates/left-sidebar.php:40
+#: page.php:33 single.php:47
+#, php-format
+msgid "%s COMMENTS"
+msgstr ""
+
+#: search.php:10
+msgid "Search Results for"
+msgstr ""
+
+#: single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: tag.php:10
+msgid "Tag"
+msgstr ""

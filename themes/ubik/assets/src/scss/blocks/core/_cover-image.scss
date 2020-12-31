@@ -1,0 +1,56 @@
+////
+/// Cover image block.
+////
+
+.wp-block-cover-image,
+.wp-block-cover {
+
+	position: relative;
+	min-height: 430px;
+	padding: 1rem;
+
+	@media screen and (min-width: 768px) {
+		padding: 1rem 10%;
+	}
+
+	.wp-block-cover-image-text,
+	.wp-block-cover-text,
+	h2 {
+		font-family: $header-font-family;
+		font-size: 2em;
+		font-weight: bold;
+		line-height: 1.25;
+		padding: 0;
+		color: #fff;
+
+		@media screen and (min-width: 768px) {
+			//font-size: $font__size-xl;
+			max-width: 100%;
+		}
+	}
+
+	&.alignleft,
+	&.alignright {
+
+		@media screen and (min-width: 768px) {
+			padding: 1rem 2rem;
+		}
+
+	}
+
+	&.alignfull {
+
+		@media screen and (min-width: 768px) {
+			padding-left: calc(10% + 2rem);
+			padding-right: calc(10% + 2rem);
+
+			.wp-block-cover-image-text,
+			.wp-block-cover-text,
+			h2 {
+				padding: 0;
+			}
+		}
+
+	}
+
+}

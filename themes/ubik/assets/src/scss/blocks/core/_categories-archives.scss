@@ -1,0 +1,62 @@
+////
+/// Latest categories & archives blocks.
+////
+
+.wp-block-archives,
+.wp-block-categories {
+
+	padding: 0;
+	list-style: none;
+
+	li {
+		color: #bbb;
+		font-family: $header-font-family;
+		font-weight: bold;
+		padding-bottom: 0.75rem;
+
+		&.menu-item-has-children,
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	&.aligncenter {
+		text-align: center;
+	}
+
+}
+
+.wp-block-categories {
+
+	ul {
+		padding-top: 0.75rem;
+	}
+
+	li ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	// nested sub-menu
+	ul {
+		counter-reset: submenu;
+	}
+
+	ul > li > a::before {
+		font-family: $body-font-family;
+		font-weight: normal;
+		content: "\2013\00a0" counters(submenu, "\2013\00a0", none);
+		counter-increment: submenu
+	}
+}
+
+.wp-block-archives-dropdown,
+.wp-block-categories-dropdown {
+	select {
+		width: auto;
+	}
+}

@@ -1,0 +1,25 @@
+////
+/// File block.
+////
+
+.wp-block-file {
+
+	font-family: $body-font-family;
+
+	a:not(.wp-block-file__button) {
+		text-decoration: underline;
+	}
+
+	.wp-block-file__button {
+
+		display: table;
+		border: none;
+		border-radius: 5px;
+		font-family: $body-font-family;
+		font-weight: bold;
+		margin-left: 0;
+		margin-top: 0.75rem;
+		
+	}
+
+}

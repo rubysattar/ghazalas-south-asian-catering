@@ -1,0 +1,19 @@
+.search-form {
+  position: relative;
+  input {
+    height: 40px;
+    font-size: 16px;
+    padding: 7px;
+    margin: 0;
+    background-color: $white;
+    color: $black;
+  }
+}
+
+.search-submit {
+	position: absolute;
+	right: 3px;
+  top: 3px;
+  bottom: 3px;
+  padding: 0.5em 1em;
+}

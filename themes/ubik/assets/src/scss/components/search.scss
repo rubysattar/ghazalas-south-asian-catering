@@ -1,0 +1,25 @@
+.search-entry {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.search-entry__img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.search-entry__stacked__title {
+  flex: 1 1 0;
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.search-entry__stacked__excerpt {
+  flex: 1 1 0;
+}
+
+.search-entry__stacked__readmore {
+  flex: 0 0 auto;
+}
